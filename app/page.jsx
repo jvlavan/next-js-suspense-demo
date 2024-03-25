@@ -24,7 +24,8 @@ const text=`async function Product() {
 		  getdata()
     }, []);
 
-    ///return(....code here....)}
+    ///return(....code here....)
+}
     
     // suspense part:
     <Suspense fallback={<Skeletons/>}>
