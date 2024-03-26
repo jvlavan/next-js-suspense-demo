@@ -14,6 +14,15 @@ export const siteConfig = {
       label: "products",
       href: "/products",
     },
+	{
+		label: "my IP info",
+		href: "/myipinfo",
+	  },
+	  {
+		label: "my weather info",
+		href: "/weather",
+	  },
+	
    
 	],
 	navMenuItems: [
@@ -26,7 +35,15 @@ export const siteConfig = {
 			label: "products",
 			href: "/products",
 		  },
-		 
+		  {
+			label: "my IP info",
+			href: "/myipinfo",
+		  },
+		  {
+			label: "my weather info",
+			href: "/weather",
+		  },
+		
 		
 	],
 	links: {

@@ -3,6 +3,7 @@ import {Card, Skeleton} from "@nextui-org/react";
 
 export default function Skeletons() {
   return (
+    <section className="w-fit m-auto">
     <Card className="w-[200px] space-y-5 p-4" radius="lg">
       <Skeleton className="rounded-lg">
         <div className="h-24 rounded-lg bg-default-300"></div>
@@ -19,5 +20,6 @@ export default function Skeletons() {
         </Skeleton>
       </div>
     </Card>
+    </section>
   );
 }
