@@ -78,6 +78,7 @@ async function GetIp() {
       </CardBody>
     </Card></div>
     <div > 
+    <Suspense fallback={<Loadingcircle/>}>
     <ReactWeather
       isLoading={isLoading}
       errorMessage={errorMessage}
@@ -87,6 +88,8 @@ async function GetIp() {
       unitsLabels={{ temperature: 'C', windSpeed: 'Km/h' }}
       showForecast
     />
+      </Suspense>
+ 
     
     
     </div></div>
